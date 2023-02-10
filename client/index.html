@@ -1,0 +1,17 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Export Clips</title>
+    <meta charset="utf-8">
+    <script src="./ext.js"></script>
+    <script src="./CSInterface.js"></script>
+    <link href="./style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body onLoad="onLoaded()">
+    <p id="activeSeq" style="color: white;">Active Sequence: </p>
+    <select id="presets">
+      <option>Select a preset</option>
+    </select>
+    <button class="controlBg textStyle" id="btn_PPRO1" onClick="render()">Render Clips</button>
+  </body>
+</html>
